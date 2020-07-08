@@ -15,23 +15,68 @@ has the following keys:
  - name: a name string for this location
 """
 
-waypoints = [
-    {
-        "lat": 43,
-        "lon": -121,
-        "name": "a place"
-    },
-    {
-        "lat": 41,
-        "lon": -123,
-        "name": "another place"
-    },
-    {
-        "lat": 43,
-        "lon": -122,
-        "name": "a third place"
-    }
-]
+# a data structure like the lists. Similar to hash tables in other lnaguages
+# create an empty dictionary 
+# d = {}
+
+# dict2 = {"foo": 12, "bar": 20}
+# print and access elements in dictionary
+# print(dict2["foo"])
+
+# iterate through dictionary
+# for k in dict2:
+#     print(f'{k} is {dict2[k]}')
+
+# for value in variable:
+#     pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# waypoints = [
+#     {
+#         "lat": 43,
+#         "lon": -121,
+#         "name": "a place"
+#     },
+#     {
+#         "lat": 41,
+#         "lon": -123,
+#         "name": "another place"
+#     },
+#     {
+#         "lat": 43,
+#         "lon": -122,
+#         "name": "a third place"
+#     }
+# ]
 
 # Add a new waypoint to the list
 # YOUR CODE HERE

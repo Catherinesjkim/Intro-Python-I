@@ -10,8 +10,22 @@ z = "I like turtles!"
 
 # Using the printf operator (%), print the following feeding in the values of x,
 # y, and z:
+
 # x is 10, y is 2.25, z is "I like turtles!"
 
+# print('x is %d, y is %.2f, z is "%s"' %(x,y,z))
+
+# %d == integer digits
+# %.2f == floating number
+# %s == string
+
 # Use the 'format' string method to print the same thing
+# x is 10, y is 2.25, z is "I like turtles!"
+# print('x is {0}, y is {1:.3}, z is "{2:s}"'.format(x, y, z))
+
 
 # Finally, print the same thing using an f-string
+# x is 10, y is 2.25, z is "I like turtles!"
+print(f'x is {x}, y is {y:.3}, z is "{z}"')
+# “formatted string literals,” f-strings are string literals that have an f at the beginning and curly braces containing expressions that will be replaced with their values. The expressions are evaluated at runtime and then formatted using the __format__ protocol. They slice. 
+
