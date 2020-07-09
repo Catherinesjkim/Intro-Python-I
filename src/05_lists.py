@@ -55,10 +55,10 @@ x.insert(5, 99)
 
 # Print the length of list x
 # YOUR CODE HERE
-print("Number of items in the list is ", len(x))
+# print("Number of items in the list is ", len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-for nums in x:
-  print(nums * 1000)
+# for nums in x:
+#   print(nums * 1000)
 
