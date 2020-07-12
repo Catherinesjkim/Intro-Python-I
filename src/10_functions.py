@@ -4,7 +4,7 @@
 # focus on input and what it returned
 
 # Lecture
-#? Passing value by argument v. value
+#? Passing value by argument v. reference
 # 1. I'm changing the object
 # 2. 
 
