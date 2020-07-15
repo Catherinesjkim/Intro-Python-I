@@ -26,6 +26,6 @@ z = "I like turtles!"
 
 # Finally, print the same thing using an f-string
 # x is 10, y is 2.25, z is "I like turtles!"
-print(f'x is {x}, y is {y:.3}, z is "{z}"')
+# print(f'x is {x}, y is {y:.3}, z is "{z}"')
 # “formatted string literals,” f-strings are string literals that have an f at the beginning and curly braces containing expressions that will be replaced with their values. The expressions are evaluated at runtime and then formatted using the __format__ protocol. They slice. 
 

@@ -14,21 +14,46 @@ has the following keys:
  - lon: a signed integer representing a longitude value
  - name: a name string for this location
 """
+waypoints = [
+    {
+        "lat": 43,
+        "lon": -121,
+        "name": "a place"
+    },
+    {
+        "lat": 41,
+        "lon": -123,
+        "name": "another place"
+    },
+    {
+        "lat": 43,
+        "lon": -122,
+        "name": "a third place"
+    }
+]
 
-# a data structure like the lists. Similar to hash tables in other lnaguages
-# create an empty dictionary 
-# d = {}
+# Add a new waypoint to the list
+# YOUR CODE HERE
+waypoints.append({
+    "lat": 42,
+    "lon": -120,
+    "name": "a fourth place"
+})
 
-# dict2 = {"foo": 12, "bar": 20}
-# print and access elements in dictionary
-# print(dict2["foo"])
+# Modify the dictionary with name "a place" such that its longitude
+# value is -130 and change its name to "not a real place"
+# Note: It's okay to access the dictionary using bracket notation on the waypoints list.
 
-# iterate through dictionary
-# for k in dict2:
-#     print(f'{k} is {dict2[k]}')
+# YOUR CODE HERE
+waypoints[0]["lon"] = -130
+waypoints[0]["name"] = "not a real place"
 
-# for value in variable:
-#     pass
+# Write a loop that prints out all the field values for all the waypoints
+
+# YOUR CODE HERE
+# for dic in waypoints:
+#     for key, value in dic.items():
+#         print(value)
 
 
 
